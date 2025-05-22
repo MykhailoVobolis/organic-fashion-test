@@ -189,6 +189,23 @@ const initialState = {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     btnText: "LEARN MORE",
+    image: {
+      alt: "About Image",
+      sources: {
+        mobile: {
+          x1: "/images/mobile/about-mobile.png",
+          x2: "/images/mobile/about-mobile@2x.png",
+        },
+        tablet: {
+          x1: "/images/tablet/about-tablet.png",
+          x2: "/images/tablet/about-tablet@2x.png",
+        },
+        desktop: {
+          x1: "/images/about.png",
+          x2: "/images/about@2x.png",
+        },
+      },
+    },
   },
 
   follow: {

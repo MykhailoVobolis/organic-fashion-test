@@ -11,14 +11,15 @@
 
 @font-face {
   font-family: "Crimson-text";
-  src: url("./assets/fonts/crimson//crimson-text-bold.woff2") format("woff2");
+  src: url("./assets/fonts/crimson/crimson-text-bold.woff2") format("woff2");
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
 }
 
 :root {
   --black: #000000;
   --background-main: #faf9f8;
+  --background-light-grey: #f1f1f1;
   --background-grey: #dbdbdb;
   --green-grey: #8e9a82;
 

@@ -6,7 +6,7 @@ import ResponsiveImage from "../../components/ResponsiveImage/ResponsiveImage.js
 export default function CollectionSection() {
   const { title, subtitle, images } = useSelector(selectCollection);
   return (
-    <section className="pt-[118px] pb-[133px] bg-[linear-gradient(to_bottom,_white_0%,_white_50%,_var(--background-grey)_50%,_var(--background-grey)_100%)]">
+    <section className="pt-[118px] pb-[133px] bg-[linear-gradient(to_bottom,_var(--background-light-grey)_0%,_var(--background-light-grey)_50%,_var(--background-grey)_50%,_var(--background-grey)_100%)]">
       <div className="flex flex-col items-center ml-auto mr-auto max-w-[1740px] ">
         <h2 className="text-[48px] tracking-[0.15em] mb-[76px] text-center">{title}</h2>
         <div className="flex justify-between w-[100%] mb-[94px]">
