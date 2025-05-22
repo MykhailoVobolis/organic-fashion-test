@@ -5,9 +5,9 @@ export default function NavigationList() {
   const navItems = useSelector(selectNavItems);
 
   return (
-    <ul className="flex gap-[90px] ">
+    <ul className="flex tablet:gap-[50px] laptop:gap-[80px] desktop:gap-[90px] ">
       {navItems.map((item) => (
-        <li key={item} className="text-[32px] uppercase">
+        <li key={item} className="uppercase desktop:text-[32px] ">
           <a href={`#${item.toLowerCase()}`}>{item}</a>
         </li>
       ))}

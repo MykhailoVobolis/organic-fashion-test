@@ -14,7 +14,7 @@ export default function InputField({ name, ariaLabel = "", type = "text", placeh
           placeholder={placeholder}
           aria-label={ariaLabel}
           {...register(name)}
-          className="w-full h-[194px] px-3 py-4 rounded-[10px] border-solid border-[5px] bg-transparent text-[36px] leading-[1.28] outline-offset-4 outline-transparent border-[var(--green-grey)] placeholder:text-[var(--black)]"
+          className="w-full tablet:h-[101px] tablet:px-2 laptop:h-[130px] laptop:py-2 desktop:h-[194px] desktop:px-3 desktop:py-4 rounded-[10px] border-solid border-[5px] bg-transparent tablet:text-xl desktop:text-[36px] leading-[1.28] outline-none border-[var(--green-grey)] placeholder:text-[var(--black)]"
         />
       ) : (
         <input
@@ -23,10 +23,10 @@ export default function InputField({ name, ariaLabel = "", type = "text", placeh
           placeholder={placeholder}
           aria-label={ariaLabel}
           {...register(name)}
-          className=" w-full h-[121px] px-3 pb-7 rounded-[10px] border-solid border-[5px] bg-transparent text-[36px] leading-[1.28] outline-offset-4 outline-transparent border-[var(--green-grey)] placeholder:text-[var(--black)]"
+          className=" w-full tablet:h-[63px] tablet:px-2 tablet:pb-7 laptop:h-[81px] laptop:pb-8 desktop:h-[121px] desktop:px-3 desktop:pb-7 rounded-[10px] border-solid border-[5px] bg-transparent tablet:text-xl desktop:text-[36px] leading-[1.28] outline-none border-[var(--green-grey)] placeholder:text-[var(--black)]"
         />
       )}
-      {errors?.[name] && <p className="mt-1 text-3xl text-red-700">{errors[name].message}</p>}
+      {errors?.[name] && <p className="mt-1 desktop:text-3xl text-red-700">{errors[name].message}</p>}
     </div>
   );
 }

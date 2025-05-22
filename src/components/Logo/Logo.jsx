@@ -5,7 +5,7 @@ export default function Logo() {
   const { nameLogo } = useSelector(selectLogo);
 
   return (
-    <a href="/" className="text-4xl">
+    <a href="/" className="desktop:text-4xl">
       <span>{nameLogo}</span>
     </a>
   );

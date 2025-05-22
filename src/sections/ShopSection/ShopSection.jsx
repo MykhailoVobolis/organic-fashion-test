@@ -6,10 +6,12 @@ export default function ShopSection() {
   const { title, images } = useSelector(selectShop);
 
   return (
-    <section id="shop" className="pt-[70px] bg-white">
-      <h2 className="text-[48px] tracking-[0.15em] mb-8 text-center">{title}</h2>
-      <div className="flex flex-col gap-[18px] ml-auto mr-auto max-w-[1920px] justify-between items-center">
-        <div className="flex justify-between w-[100%]">
+    <section id="shop" className="tablet:pt-[60px] desktop:pt-[70px] bg-white">
+      <div className="flex flex-col ml-auto mr-auto justify-between items-center tablet:max-w-[992px] laptop:max-w-[1372px] desktop:max-w-[1920px]">
+        <h2 className="tablet:text-[32px] desktop:text-[48px] tablet:mb-12 laptop:mb-[86px] desktop:mb-8 tablet:w-[310px] laptop:w-[620px] tracking-[0.15em] text-center">
+          {title}
+        </h2>
+        <div className="flex justify-between w-[100%] mb-[18px]">
           <ResponsiveImage
             image={images[0]}
             wrapperClasses="max-w-[105px] tablet:max-w-[213px] laptop:max-w-[291px] desktop:max-w-[409px]"

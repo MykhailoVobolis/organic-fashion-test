@@ -10,8 +10,8 @@ export default function FollowSection() {
   return (
     <section
       id="contact"
-      className="pt-[118px] pb-[142px] bg-[linear-gradient(to_right,_var(--background-light-grey)_0%,_var(--background-light-grey)_70%,_var(--background-grey)_70%,_var(--background-grey)_100%)]">
-      <div className="flex ml-[274px] mr-[154px] max-w-[1492px] justify-between">
+      className="tablet:pt-[89px] tablet:pb-[103px] laptop:pt-[79px] laptop:pb-[131px] desktop:pt-[118px] desktop:pb-[142px] bg-[linear-gradient(to_right,_var(--background-light-grey)_0%,_var(--background-light-grey)_70%,_var(--background-grey)_70%,_var(--background-grey)_100%)]">
+      <div className="flex justify-between tablet:ml-auto tablet:mr-auto tablet:max-w-[788px] laptop:max-w-[1118px] desktop:ml-[274px] desktop:mr-[154px] desktop:max-w-[1492px] ">
         <FollowContent title={title} formPlaceholders={formPlaceholders} btnText={btnText} />
         <ResponsiveImage
           image={image}

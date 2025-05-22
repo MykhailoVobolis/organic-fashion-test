@@ -8,8 +8,10 @@ export default function AboutSection() {
   const { title, description, btnText, image } = useSelector(selectAbout);
 
   return (
-    <section id="about" className="pt-[160px] pb-[103px]">
-      <div className="flex ml-auto mr-auto max-w-[1700px] justify-between">
+    <section
+      id="about"
+      className="tablet:pt-[68px] tablet:pb-[46px] laptop:pt-[107px] laptop:pb-[128px] desktop:pt-[160px] desktop:pb-[103px]">
+      <div className="flex ml-auto mr-auto justify-between tablet:max-w-[852px] laptop:max-w-[1135px] desktop:max-w-[1700px] ">
         <ResponsiveImage
           image={image}
           wrapperClasses="max-w-[198px] tablet:max-w-[251px] laptop:max-w-[316px] desktop:max-w-[473px]"
