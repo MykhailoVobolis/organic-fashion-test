@@ -5,7 +5,7 @@ export default function HeroContent({ title, description, btnText }) {
       <p className="text-[36px] leading-[1.28] mb-14 max-w-[918px]">{description}</p>
       <a
         href="#shop"
-        className="w-[291px] h-[77px] rounded-full bg-[var(--green-grey)] flex items-center justify-center text-xl uppercase tracking-[0.15em] text-white">
+        className="w-[291px] h-[77px] rounded-full bg-[var(--green-grey)] flex items-center justify-center text-xl uppercase tracking-[0.15em] text-white hover:bg-[var(--green-grey-hover)] transition-colors duration-200 ease-in-out">
         {btnText}
       </a>
     </div>

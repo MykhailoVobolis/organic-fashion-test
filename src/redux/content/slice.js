@@ -210,10 +210,29 @@ const initialState = {
 
   follow: {
     title: "FOLLOW US",
-    inputNamePlaceholder: "Enter your name",
-    inputEmailPlaceholder: "Enter a valid email address",
-    textAreaMessagePlaceholder: "Enter your message",
+    formPlaceholders: {
+      inputNamePlaceholder: "Enter your name",
+      inputEmailPlaceholder: "Enter a valid email address",
+      textAreaMessagePlaceholder: "Enter your message",
+    },
     btnText: "SUBMIT",
+    image: {
+      alt: "Hero Image",
+      sources: {
+        mobile: {
+          x1: "/images/mobile/follow-mobile.png",
+          x2: "/images/mobile/follow-mobile@2x.png",
+        },
+        tablet: {
+          x1: "/images/tablet/follow-tablet.png",
+          x2: "/images/tablet/follow-tablet@2x.png",
+        },
+        desktop: {
+          x1: "/images/follow.png",
+          x2: "/images/follow@2x.png",
+        },
+      },
+    },
   },
 };
 

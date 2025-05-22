@@ -22,6 +22,7 @@
   --background-light-grey: #f1f1f1;
   --background-grey: #dbdbdb;
   --green-grey: #8e9a82;
+  --green-grey-hover: #7c876f;
 
   font-family: Crimson-text, sans-serif;
   line-height: 1.5;
@@ -30,8 +31,6 @@
 
   color: var(--black);
   background-color: var(--background-main);
-
-  --animation: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
