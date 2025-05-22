@@ -125,6 +125,59 @@ const initialState = {
   collection: {
     title: "NEW COLLECTION",
     subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    images: [
+      {
+        alt: "Collection image 1",
+        sources: {
+          mobile: {
+            x1: "/images/mobile/collection1-mobile.png",
+            x2: "/images/mobile/collection1-mobile@2x.png",
+          },
+          tablet: {
+            x1: "/images/tablet/collection1-tablet.png",
+            x2: "/images/tablet/collection1-tablet@2x.png",
+          },
+          desktop: {
+            x1: "/images/collection1.png",
+            x2: "/images/collection1@2x.png",
+          },
+        },
+      },
+      {
+        alt: "Collection image 2",
+        sources: {
+          mobile: {
+            x1: "/images/mobile/collection2-mobile.png",
+            x2: "/images/mobile/collection2-mobile@2x.png",
+          },
+          tablet: {
+            x1: "/images/tablet/collection2-tablet.png",
+            x2: "/images/tablet/collection2-tablet@2x.png",
+          },
+          desktop: {
+            x1: "/images/collection2.png",
+            x2: "/images/collection2@2x.png",
+          },
+        },
+      },
+      {
+        alt: "Collection image 3",
+        sources: {
+          mobile: {
+            x1: "/images/mobile/collection3-mobile.png",
+            x2: "/images/mobile/collection3-mobile@2x.png",
+          },
+          tablet: {
+            x1: "/images/tablet/collection3-tablet.png",
+            x2: "/images/tablet/collection3-tablet@2x.png",
+          },
+          desktop: {
+            x1: "/images/collection3.png",
+            x2: "/images/collection3@2x.png",
+          },
+        },
+      },
+    ],
   },
 
   about: {
