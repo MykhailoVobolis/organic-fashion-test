@@ -6,12 +6,12 @@ import ResponsiveImage from "../../components/ResponsiveImage/ResponsiveImage.js
 export default function CollectionSection() {
   const { title, subtitle, images } = useSelector(selectCollection);
   return (
-    <section className="tablet:pt-[60px] tablet:pb-[70px] laptop:pt-[80px] laptop:pb-[150px] desktop:pt-[118px] desktop:pb-[133px] bg-[linear-gradient(to_bottom,_var(--background-light-grey)_0%,_var(--background-light-grey)_50%,_var(--background-grey)_50%,_var(--background-grey)_100%)]">
+    <section className="pt-[33px] pb-[62px] tablet:pt-[60px] tablet:pb-[70px] laptop:pt-[80px] laptop:pb-[150px] desktop:pt-[118px] desktop:pb-[133px] bg-[linear-gradient(to_bottom,_var(--background-light-grey)_0%,_var(--background-light-grey)_50%,_var(--background-grey)_50%,_var(--background-grey)_100%)]">
       <div className="flex flex-col items-center ml-auto mr-auto tablet:max-w-[906px] laptop:max-w-[1173px] desktop:max-w-[1740px] ">
-        <h2 className="tablet:text-[32px] desktop:text-[48px] tracking-[0.15em] tablet:mb-12 laptop:mb-[102px] desktop:mb-[76px] tablet:w-[310px] laptop:w-[620px] text-center">
+        <h2 className="text-[20px] tablet:text-[32px] desktop:text-[48px] tracking-[0.15em] mb-[30px] tablet:mb-12 laptop:mb-[102px] desktop:mb-[76px] tablet:w-[310px] laptop:w-[620px] text-center">
           {title}
         </h2>
-        <div className="flex justify-between w-[100%] tablet:mb-[48px] laptop:mb-[62px] desktop:mb-[94px]">
+        <div className="flex justify-between w-[100%] mb-[24px]  tablet:mb-[48px] laptop:mb-[62px] desktop:mb-[94px]">
           <ResponsiveImage
             image={images[0]}
             wrapperClasses="max-w-[143px] tablet:max-w-[261px] laptop:max-w-[338px] desktop:max-w-[502px]"
@@ -25,7 +25,7 @@ export default function CollectionSection() {
             wrapperClasses="max-w-[151px] tablet:max-w-[261px] laptop:max-w-[338px] desktop:max-w-[502px]"
           />
         </div>
-        <p className="tablet:text-[32px] desktop:text-[40px] leading-[1.28] tracking-[0.15em] tablet:max-w-[750px] laptop:max-w-[970px] desktop:max-w-[1346px] text-center">
+        <p className="text-[15px] max-w-[300px] tablet:text-[32px] desktop:text-[40px] leading-[1.28] tracking-[0.15em] tablet:max-w-[750px] laptop:max-w-[970px] desktop:max-w-[1346px] text-center">
           {subtitle}
         </p>
       </div>

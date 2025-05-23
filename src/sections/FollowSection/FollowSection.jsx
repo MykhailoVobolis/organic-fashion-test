@@ -10,8 +10,8 @@ export default function FollowSection() {
   return (
     <section
       id="contact"
-      className="tablet:pt-[89px] tablet:pb-[103px] laptop:pt-[79px] laptop:pb-[131px] desktop:pt-[118px] desktop:pb-[142px] bg-[linear-gradient(to_right,_var(--background-light-grey)_0%,_var(--background-light-grey)_70%,_var(--background-grey)_70%,_var(--background-grey)_100%)]">
-      <div className="flex justify-between tablet:ml-auto tablet:mr-auto tablet:max-w-[788px] laptop:max-w-[1118px] desktop:ml-[274px] desktop:mr-[154px] desktop:max-w-[1492px] ">
+      className="pt-[36px] pb-[77px] tablet:pt-[89px] tablet:pb-[103px] laptop:pt-[79px] laptop:pb-[131px] desktop:pt-[118px] desktop:pb-[142px] bg-[linear-gradient(to_bottom,_var(--background-light-grey)_0%,_var(--background-light-grey)_67%,_var(--background-grey)_67%,_var(--background-grey)_100%)] tablet:bg-[linear-gradient(to_right,_var(--background-light-grey)_0%,_var(--background-light-grey)_70%,_var(--background-grey)_70%,_var(--background-grey)_100%)]">
+      <div className="flex flex-col items-center justify-between max-w-[257px] tablet:items-start tablet:flex-row ml-auto mr-auto tablet:max-w-[788px] laptop:max-w-[1118px] desktop:ml-[274px] desktop:mr-[154px] desktop:max-w-[1492px] ">
         <FollowContent title={title} formPlaceholders={formPlaceholders} btnText={btnText} />
         <ResponsiveImage
           image={image}
